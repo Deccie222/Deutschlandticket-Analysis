@@ -1,0 +1,2693 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Altona-Altstadt",
+        "population_density": 4200,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 1,
+        "near_port_industrial": 0,
+        "ubahn_stops": 2,
+        "sbahn_stops": 1,
+        "bus_stops": 18
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.923,
+              53.537
+            ],
+            [
+              9.947000000000001,
+              53.537
+            ],
+            [
+              9.947000000000001,
+              53.561
+            ],
+            [
+              9.923,
+              53.561
+            ],
+            [
+              9.923,
+              53.537
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Altona-Nord",
+        "population_density": 6800,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 0,
+        "near_port_industrial": 0,
+        "ubahn_stops": 1,
+        "sbahn_stops": 1,
+        "bus_stops": 22
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.933,
+              53.548
+            ],
+            [
+              9.957,
+              53.548
+            ],
+            [
+              9.957,
+              53.572
+            ],
+            [
+              9.933,
+              53.572
+            ],
+            [
+              9.933,
+              53.548
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Ottensen",
+        "population_density": 7500,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 1,
+        "near_port_industrial": 0,
+        "ubahn_stops": 1,
+        "sbahn_stops": 1,
+        "bus_stops": 20
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.913,
+              53.54
+            ],
+            [
+              9.937000000000001,
+              53.54
+            ],
+            [
+              9.937000000000001,
+              53.564
+            ],
+            [
+              9.913,
+              53.564
+            ],
+            [
+              9.913,
+              53.54
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Bahrenfeld",
+        "population_density": 3200,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 1,
+        "near_port_industrial": 0,
+        "ubahn_stops": 0,
+        "sbahn_stops": 1,
+        "bus_stops": 14
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.892999999999999,
+              53.551
+            ],
+            [
+              9.917,
+              53.551
+            ],
+            [
+              9.917,
+              53.575
+            ],
+            [
+              9.892999999999999,
+              53.575
+            ],
+            [
+              9.892999999999999,
+              53.551
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Groß Flottbek",
+        "population_density": 2100,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 1,
+        "near_port_industrial": 0,
+        "ubahn_stops": 0,
+        "sbahn_stops": 0,
+        "bus_stops": 8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.883,
+              53.565
+            ],
+            [
+              9.907,
+              53.565
+            ],
+            [
+              9.907,
+              53.589
+            ],
+            [
+              9.883,
+              53.589
+            ],
+            [
+              9.883,
+              53.565
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Othmarschen",
+        "population_density": 2800,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 1,
+        "near_port_industrial": 0,
+        "ubahn_stops": 0,
+        "sbahn_stops": 0,
+        "bus_stops": 10
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.873,
+              53.54
+            ],
+            [
+              9.897,
+              53.54
+            ],
+            [
+              9.897,
+              53.564
+            ],
+            [
+              9.873,
+              53.564
+            ],
+            [
+              9.873,
+              53.54
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Blankenese",
+        "population_density": 1800,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 1,
+        "near_port_industrial": 0,
+        "ubahn_stops": 0,
+        "sbahn_stops": 1,
+        "bus_stops": 9
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.798,
+              53.546
+            ],
+            [
+              9.822000000000001,
+              53.546
+            ],
+            [
+              9.822000000000001,
+              53.57
+            ],
+            [
+              9.798,
+              53.57
+            ],
+            [
+              9.798,
+              53.546
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Rotherbaum",
+        "population_density": 5200,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 1,
+        "near_port_industrial": 0,
+        "ubahn_stops": 2,
+        "sbahn_stops": 1,
+        "bus_stops": 16
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.972999999999999,
+              53.553
+            ],
+            [
+              9.997,
+              53.553
+            ],
+            [
+              9.997,
+              53.577
+            ],
+            [
+              9.972999999999999,
+              53.577
+            ],
+            [
+              9.972999999999999,
+              53.553
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Harvestehude",
+        "population_density": 4500,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 1,
+        "near_port_industrial": 0,
+        "ubahn_stops": 1,
+        "sbahn_stops": 1,
+        "bus_stops": 12
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.978,
+              53.57
+            ],
+            [
+              10.002,
+              53.57
+            ],
+            [
+              10.002,
+              53.594
+            ],
+            [
+              9.978,
+              53.594
+            ],
+            [
+              9.978,
+              53.57
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Eppendorf",
+        "population_density": 6200,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 1,
+        "near_port_industrial": 0,
+        "ubahn_stops": 1,
+        "sbahn_stops": 2,
+        "bus_stops": 18
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.972999999999999,
+              53.58
+            ],
+            [
+              9.997,
+              53.58
+            ],
+            [
+              9.997,
+              53.604
+            ],
+            [
+              9.972999999999999,
+              53.604
+            ],
+            [
+              9.972999999999999,
+              53.58
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Hoheluft-Ost",
+        "population_density": 5800,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 0,
+        "near_port_industrial": 0,
+        "ubahn_stops": 1,
+        "sbahn_stops": 1,
+        "bus_stops": 15
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.958,
+              53.566
+            ],
+            [
+              9.982000000000001,
+              53.566
+            ],
+            [
+              9.982000000000001,
+              53.59
+            ],
+            [
+              9.958,
+              53.59
+            ],
+            [
+              9.958,
+              53.566
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Lokstedt",
+        "population_density": 4800,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 1,
+        "near_port_industrial": 0,
+        "ubahn_stops": 0,
+        "sbahn_stops": 1,
+        "bus_stops": 14
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.943,
+              53.586
+            ],
+            [
+              9.967,
+              53.586
+            ],
+            [
+              9.967,
+              53.61
+            ],
+            [
+              9.943,
+              53.61
+            ],
+            [
+              9.943,
+              53.586
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Niendorf",
+        "population_density": 3200,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 1,
+        "near_port_industrial": 0,
+        "ubahn_stops": 0,
+        "sbahn_stops": 1,
+        "bus_stops": 12
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.933,
+              53.606
+            ],
+            [
+              9.957,
+              53.606
+            ],
+            [
+              9.957,
+              53.63
+            ],
+            [
+              9.933,
+              53.63
+            ],
+            [
+              9.933,
+              53.606
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Schnelsen",
+        "population_density": 2900,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 1,
+        "near_port_industrial": 0,
+        "ubahn_stops": 0,
+        "sbahn_stops": 1,
+        "bus_stops": 11
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.902999999999999,
+              53.616
+            ],
+            [
+              9.927,
+              53.616
+            ],
+            [
+              9.927,
+              53.64
+            ],
+            [
+              9.902999999999999,
+              53.64
+            ],
+            [
+              9.902999999999999,
+              53.616
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Stellingen",
+        "population_density": 4100,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 0,
+        "near_port_industrial": 0,
+        "ubahn_stops": 0,
+        "sbahn_stops": 1,
+        "bus_stops": 13
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.913,
+              53.58
+            ],
+            [
+              9.937000000000001,
+              53.58
+            ],
+            [
+              9.937000000000001,
+              53.604
+            ],
+            [
+              9.913,
+              53.604
+            ],
+            [
+              9.913,
+              53.58
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Eimsbüttel",
+        "population_density": 5500,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 1,
+        "near_port_industrial": 0,
+        "ubahn_stops": 1,
+        "sbahn_stops": 1,
+        "bus_stops": 17
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.943,
+              53.563
+            ],
+            [
+              9.967,
+              53.563
+            ],
+            [
+              9.967,
+              53.587
+            ],
+            [
+              9.943,
+              53.587
+            ],
+            [
+              9.943,
+              53.563
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "St. Pauli",
+        "population_density": 6100,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 1,
+        "near_port_industrial": 0,
+        "ubahn_stops": 1,
+        "sbahn_stops": 1,
+        "bus_stops": 24
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.953,
+              53.541
+            ],
+            [
+              9.977,
+              53.541
+            ],
+            [
+              9.977,
+              53.565
+            ],
+            [
+              9.953,
+              53.565
+            ],
+            [
+              9.953,
+              53.541
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Sternschanze",
+        "population_density": 7200,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 0,
+        "near_port_industrial": 0,
+        "ubahn_stops": 1,
+        "sbahn_stops": 1,
+        "bus_stops": 20
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.953,
+              53.551
+            ],
+            [
+              9.977,
+              53.551
+            ],
+            [
+              9.977,
+              53.575
+            ],
+            [
+              9.953,
+              53.575
+            ],
+            [
+              9.953,
+              53.551
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Hohenfelde",
+        "population_density": 5800,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 1,
+        "near_port_industrial": 0,
+        "ubahn_stops": 1,
+        "sbahn_stops": 1,
+        "bus_stops": 16
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.003,
+              53.556
+            ],
+            [
+              10.027000000000001,
+              53.556
+            ],
+            [
+              10.027000000000001,
+              53.58
+            ],
+            [
+              10.003,
+              53.58
+            ],
+            [
+              10.003,
+              53.556
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Uhlenhorst",
+        "population_density": 5200,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 1,
+        "near_port_industrial": 0,
+        "ubahn_stops": 1,
+        "sbahn_stops": 1,
+        "bus_stops": 14
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.017999999999999,
+              53.56
+            ],
+            [
+              10.042,
+              53.56
+            ],
+            [
+              10.042,
+              53.584
+            ],
+            [
+              10.017999999999999,
+              53.584
+            ],
+            [
+              10.017999999999999,
+              53.56
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Barmbek-Süd",
+        "population_density": 6400,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 0,
+        "near_port_industrial": 0,
+        "ubahn_stops": 1,
+        "sbahn_stops": 2,
+        "bus_stops": 19
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.027999999999999,
+              53.57
+            ],
+            [
+              10.052,
+              53.57
+            ],
+            [
+              10.052,
+              53.594
+            ],
+            [
+              10.027999999999999,
+              53.594
+            ],
+            [
+              10.027999999999999,
+              53.57
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Barmbek-Nord",
+        "population_density": 5600,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 1,
+        "near_port_industrial": 0,
+        "ubahn_stops": 1,
+        "sbahn_stops": 2,
+        "bus_stops": 17
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.027999999999999,
+              53.586
+            ],
+            [
+              10.052,
+              53.586
+            ],
+            [
+              10.052,
+              53.61
+            ],
+            [
+              10.027999999999999,
+              53.61
+            ],
+            [
+              10.027999999999999,
+              53.586
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Winterhude",
+        "population_density": 4800,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 1,
+        "near_port_industrial": 0,
+        "ubahn_stops": 1,
+        "sbahn_stops": 1,
+        "bus_stops": 15
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.988,
+              53.58
+            ],
+            [
+              10.012,
+              53.58
+            ],
+            [
+              10.012,
+              53.604
+            ],
+            [
+              9.988,
+              53.604
+            ],
+            [
+              9.988,
+              53.58
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Alsterdorf",
+        "population_density": 3900,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 1,
+        "near_port_industrial": 0,
+        "ubahn_stops": 0,
+        "sbahn_stops": 1,
+        "bus_stops": 12
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.998,
+              53.596
+            ],
+            [
+              10.022,
+              53.596
+            ],
+            [
+              10.022,
+              53.62
+            ],
+            [
+              9.998,
+              53.62
+            ],
+            [
+              9.998,
+              53.596
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Fuhlsbüttel",
+        "population_density": 2400,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 1,
+        "near_port_industrial": 0,
+        "ubahn_stops": 0,
+        "sbahn_stops": 1,
+        "bus_stops": 10
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.998,
+              53.626
+            ],
+            [
+              10.022,
+              53.626
+            ],
+            [
+              10.022,
+              53.65
+            ],
+            [
+              9.998,
+              53.65
+            ],
+            [
+              9.998,
+              53.626
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Langenhorn",
+        "population_density": 3100,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 1,
+        "near_port_industrial": 0,
+        "ubahn_stops": 0,
+        "sbahn_stops": 1,
+        "bus_stops": 11
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.988,
+              53.636
+            ],
+            [
+              10.012,
+              53.636
+            ],
+            [
+              10.012,
+              53.660000000000004
+            ],
+            [
+              9.988,
+              53.660000000000004
+            ],
+            [
+              9.988,
+              53.636
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Ohlsdorf",
+        "population_density": 2800,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 1,
+        "near_port_industrial": 0,
+        "ubahn_stops": 0,
+        "sbahn_stops": 1,
+        "bus_stops": 9
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.017999999999999,
+              53.606
+            ],
+            [
+              10.042,
+              53.606
+            ],
+            [
+              10.042,
+              53.63
+            ],
+            [
+              10.017999999999999,
+              53.63
+            ],
+            [
+              10.017999999999999,
+              53.606
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Groß Borstel",
+        "population_density": 4500,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 0,
+        "near_port_industrial": 0,
+        "ubahn_stops": 0,
+        "sbahn_stops": 1,
+        "bus_stops": 13
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.963,
+              53.58
+            ],
+            [
+              9.987,
+              53.58
+            ],
+            [
+              9.987,
+              53.604
+            ],
+            [
+              9.963,
+              53.604
+            ],
+            [
+              9.963,
+              53.58
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Dulsberg",
+        "population_density": 6800,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 0,
+        "near_port_industrial": 0,
+        "ubahn_stops": 1,
+        "sbahn_stops": 1,
+        "bus_stops": 18
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.052999999999999,
+              53.566
+            ],
+            [
+              10.077,
+              53.566
+            ],
+            [
+              10.077,
+              53.59
+            ],
+            [
+              10.052999999999999,
+              53.59
+            ],
+            [
+              10.052999999999999,
+              53.566
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Bramfeld",
+        "population_density": 4200,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 1,
+        "near_port_industrial": 0,
+        "ubahn_stops": 0,
+        "sbahn_stops": 1,
+        "bus_stops": 14
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.073,
+              53.596
+            ],
+            [
+              10.097000000000001,
+              53.596
+            ],
+            [
+              10.097000000000001,
+              53.62
+            ],
+            [
+              10.073,
+              53.62
+            ],
+            [
+              10.073,
+              53.596
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Wandsbek",
+        "population_density": 5900,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 0,
+        "near_port_industrial": 0,
+        "ubahn_stops": 1,
+        "sbahn_stops": 2,
+        "bus_stops": 21
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.073,
+              53.556
+            ],
+            [
+              10.097000000000001,
+              53.556
+            ],
+            [
+              10.097000000000001,
+              53.58
+            ],
+            [
+              10.073,
+              53.58
+            ],
+            [
+              10.073,
+              53.556
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Marienthal",
+        "population_density": 5100,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 1,
+        "near_port_industrial": 0,
+        "ubahn_stops": 0,
+        "sbahn_stops": 1,
+        "bus_stops": 15
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.083,
+              53.546
+            ],
+            [
+              10.107000000000001,
+              53.546
+            ],
+            [
+              10.107000000000001,
+              53.57
+            ],
+            [
+              10.083,
+              53.57
+            ],
+            [
+              10.083,
+              53.546
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Jenfeld",
+        "population_density": 4800,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 1,
+        "near_port_industrial": 0,
+        "ubahn_stops": 0,
+        "sbahn_stops": 1,
+        "bus_stops": 16
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.113,
+              53.566
+            ],
+            [
+              10.137,
+              53.566
+            ],
+            [
+              10.137,
+              53.59
+            ],
+            [
+              10.113,
+              53.59
+            ],
+            [
+              10.113,
+              53.566
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Rahlstedt",
+        "population_density": 3600,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 1,
+        "near_port_industrial": 0,
+        "ubahn_stops": 0,
+        "sbahn_stops": 2,
+        "bus_stops": 17
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.142999999999999,
+              53.586
+            ],
+            [
+              10.167,
+              53.586
+            ],
+            [
+              10.167,
+              53.61
+            ],
+            [
+              10.142999999999999,
+              53.61
+            ],
+            [
+              10.142999999999999,
+              53.586
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Farmsen-Berne",
+        "population_density": 3200,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 1,
+        "near_port_industrial": 0,
+        "ubahn_stops": 0,
+        "sbahn_stops": 1,
+        "bus_stops": 13
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.133,
+              53.606
+            ],
+            [
+              10.157,
+              53.606
+            ],
+            [
+              10.157,
+              53.63
+            ],
+            [
+              10.133,
+              53.63
+            ],
+            [
+              10.133,
+              53.606
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Billstedt",
+        "population_density": 6200,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 0,
+        "near_port_industrial": 0,
+        "ubahn_stops": 1,
+        "sbahn_stops": 1,
+        "bus_stops": 19
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.093,
+              53.525999999999996
+            ],
+            [
+              10.117,
+              53.525999999999996
+            ],
+            [
+              10.117,
+              53.55
+            ],
+            [
+              10.093,
+              53.55
+            ],
+            [
+              10.093,
+              53.525999999999996
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Billbrook",
+        "population_density": 3800,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 0,
+        "near_port_industrial": 0,
+        "ubahn_stops": 1,
+        "sbahn_stops": 1,
+        "bus_stops": 14
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.052999999999999,
+              53.525999999999996
+            ],
+            [
+              10.077,
+              53.525999999999996
+            ],
+            [
+              10.077,
+              53.55
+            ],
+            [
+              10.052999999999999,
+              53.55
+            ],
+            [
+              10.052999999999999,
+              53.525999999999996
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Hamm",
+        "population_density": 5400,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 1,
+        "near_port_industrial": 0,
+        "ubahn_stops": 1,
+        "sbahn_stops": 1,
+        "bus_stops": 16
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.043,
+              53.536
+            ],
+            [
+              10.067,
+              53.536
+            ],
+            [
+              10.067,
+              53.56
+            ],
+            [
+              10.043,
+              53.56
+            ],
+            [
+              10.043,
+              53.536
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Horn",
+        "population_density": 4900,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 1,
+        "near_port_industrial": 0,
+        "ubahn_stops": 0,
+        "sbahn_stops": 1,
+        "bus_stops": 12
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.062999999999999,
+              53.546
+            ],
+            [
+              10.087,
+              53.546
+            ],
+            [
+              10.087,
+              53.57
+            ],
+            [
+              10.062999999999999,
+              53.57
+            ],
+            [
+              10.062999999999999,
+              53.546
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Rothenburgsort",
+        "population_density": 4100,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 1,
+        "near_port_industrial": 0,
+        "ubahn_stops": 1,
+        "sbahn_stops": 1,
+        "bus_stops": 15
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.033,
+              53.516
+            ],
+            [
+              10.057,
+              53.516
+            ],
+            [
+              10.057,
+              53.54
+            ],
+            [
+              10.033,
+              53.54
+            ],
+            [
+              10.033,
+              53.516
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Veddel",
+        "population_density": 3600,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 0,
+        "near_port_industrial": 1,
+        "ubahn_stops": 0,
+        "sbahn_stops": 1,
+        "bus_stops": 11
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.013,
+              53.506
+            ],
+            [
+              10.037,
+              53.506
+            ],
+            [
+              10.037,
+              53.53
+            ],
+            [
+              10.013,
+              53.53
+            ],
+            [
+              10.013,
+              53.506
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Wilhelmsburg",
+        "population_density": 4400,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 1,
+        "near_port_industrial": 1,
+        "ubahn_stops": 0,
+        "sbahn_stops": 1,
+        "bus_stops": 18
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.003,
+              53.496
+            ],
+            [
+              10.027000000000001,
+              53.496
+            ],
+            [
+              10.027000000000001,
+              53.52
+            ],
+            [
+              10.003,
+              53.52
+            ],
+            [
+              10.003,
+              53.496
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Harburg",
+        "population_density": 5200,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 1,
+        "near_port_industrial": 0,
+        "ubahn_stops": 0,
+        "sbahn_stops": 2,
+        "bus_stops": 20
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.963,
+              53.446
+            ],
+            [
+              9.987,
+              53.446
+            ],
+            [
+              9.987,
+              53.47
+            ],
+            [
+              9.963,
+              53.47
+            ],
+            [
+              9.963,
+              53.446
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Heimfeld",
+        "population_density": 3800,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 1,
+        "near_port_industrial": 0,
+        "ubahn_stops": 0,
+        "sbahn_stops": 1,
+        "bus_stops": 14
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.943,
+              53.456
+            ],
+            [
+              9.967,
+              53.456
+            ],
+            [
+              9.967,
+              53.480000000000004
+            ],
+            [
+              9.943,
+              53.480000000000004
+            ],
+            [
+              9.943,
+              53.456
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Marmstorf",
+        "population_density": 2900,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 1,
+        "near_port_industrial": 0,
+        "ubahn_stops": 0,
+        "sbahn_stops": 0,
+        "bus_stops": 10
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.953,
+              53.426
+            ],
+            [
+              9.977,
+              53.426
+            ],
+            [
+              9.977,
+              53.45
+            ],
+            [
+              9.953,
+              53.45
+            ],
+            [
+              9.953,
+              53.426
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Langenbek",
+        "population_density": 3400,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 1,
+        "near_port_industrial": 0,
+        "ubahn_stops": 0,
+        "sbahn_stops": 1,
+        "bus_stops": 11
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.933,
+              53.466
+            ],
+            [
+              9.957,
+              53.466
+            ],
+            [
+              9.957,
+              53.49
+            ],
+            [
+              9.933,
+              53.49
+            ],
+            [
+              9.933,
+              53.466
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Bergedorf",
+        "population_density": 2800,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 1,
+        "near_port_industrial": 0,
+        "ubahn_stops": 0,
+        "sbahn_stops": 2,
+        "bus_stops": 14
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.203,
+              53.476
+            ],
+            [
+              10.227,
+              53.476
+            ],
+            [
+              10.227,
+              53.5
+            ],
+            [
+              10.203,
+              53.5
+            ],
+            [
+              10.203,
+              53.476
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Lohbrügge",
+        "population_density": 3200,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 1,
+        "near_port_industrial": 0,
+        "ubahn_stops": 0,
+        "sbahn_stops": 1,
+        "bus_stops": 12
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.183,
+              53.486
+            ],
+            [
+              10.207,
+              53.486
+            ],
+            [
+              10.207,
+              53.51
+            ],
+            [
+              10.183,
+              53.51
+            ],
+            [
+              10.183,
+              53.486
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Allermöhe",
+        "population_density": 3500,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 1,
+        "near_port_industrial": 0,
+        "ubahn_stops": 0,
+        "sbahn_stops": 1,
+        "bus_stops": 13
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.152999999999999,
+              53.496
+            ],
+            [
+              10.177,
+              53.496
+            ],
+            [
+              10.177,
+              53.52
+            ],
+            [
+              10.152999999999999,
+              53.52
+            ],
+            [
+              10.152999999999999,
+              53.496
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Volksdorf",
+        "population_density": 2100,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 1,
+        "near_port_industrial": 0,
+        "ubahn_stops": 0,
+        "sbahn_stops": 0,
+        "bus_stops": 9
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.173,
+              53.636
+            ],
+            [
+              10.197000000000001,
+              53.636
+            ],
+            [
+              10.197000000000001,
+              53.660000000000004
+            ],
+            [
+              10.173,
+              53.660000000000004
+            ],
+            [
+              10.173,
+              53.636
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Wohldorf-Ohlstedt",
+        "population_density": 1200,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 0,
+        "has_park": 1,
+        "near_port_industrial": 0,
+        "ubahn_stops": 0,
+        "sbahn_stops": 0,
+        "bus_stops": 6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.123,
+              53.676
+            ],
+            [
+              10.147,
+              53.676
+            ],
+            [
+              10.147,
+              53.7
+            ],
+            [
+              10.123,
+              53.7
+            ],
+            [
+              10.123,
+              53.676
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Poppenbüttel",
+        "population_density": 2400,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 1,
+        "near_port_industrial": 0,
+        "ubahn_stops": 0,
+        "sbahn_stops": 1,
+        "bus_stops": 10
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.073,
+              53.646
+            ],
+            [
+              10.097000000000001,
+              53.646
+            ],
+            [
+              10.097000000000001,
+              53.67
+            ],
+            [
+              10.073,
+              53.67
+            ],
+            [
+              10.073,
+              53.646
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Sasel",
+        "population_density": 2700,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 1,
+        "near_port_industrial": 0,
+        "ubahn_stops": 0,
+        "sbahn_stops": 1,
+        "bus_stops": 11
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.103,
+              53.636
+            ],
+            [
+              10.127,
+              53.636
+            ],
+            [
+              10.127,
+              53.660000000000004
+            ],
+            [
+              10.103,
+              53.660000000000004
+            ],
+            [
+              10.103,
+              53.636
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Duvenstedt",
+        "population_density": 1600,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 0,
+        "has_park": 1,
+        "near_port_industrial": 0,
+        "ubahn_stops": 0,
+        "sbahn_stops": 0,
+        "bus_stops": 7
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.083,
+              53.696
+            ],
+            [
+              10.107000000000001,
+              53.696
+            ],
+            [
+              10.107000000000001,
+              53.72
+            ],
+            [
+              10.083,
+              53.72
+            ],
+            [
+              10.083,
+              53.696
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Lemsahl-Mellingstedt",
+        "population_density": 1400,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 0,
+        "has_park": 1,
+        "near_port_industrial": 0,
+        "ubahn_stops": 0,
+        "sbahn_stops": 0,
+        "bus_stops": 6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.103,
+              53.686
+            ],
+            [
+              10.127,
+              53.686
+            ],
+            [
+              10.127,
+              53.71
+            ],
+            [
+              10.103,
+              53.71
+            ],
+            [
+              10.103,
+              53.686
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Norderstedt-Mitte",
+        "population_density": 3800,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 1,
+        "near_port_industrial": 0,
+        "ubahn_stops": 0,
+        "sbahn_stops": 1,
+        "bus_stops": 16
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.991,
+              53.695
+            ],
+            [
+              10.015,
+              53.695
+            ],
+            [
+              10.015,
+              53.719
+            ],
+            [
+              9.991,
+              53.719
+            ],
+            [
+              9.991,
+              53.695
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Norderstedt-Garstedt",
+        "population_density": 2900,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 1,
+        "near_port_industrial": 0,
+        "ubahn_stops": 0,
+        "sbahn_stops": 1,
+        "bus_stops": 12
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.013,
+              53.706
+            ],
+            [
+              10.037,
+              53.706
+            ],
+            [
+              10.037,
+              53.730000000000004
+            ],
+            [
+              10.013,
+              53.730000000000004
+            ],
+            [
+              10.013,
+              53.706
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Norderstedt-Friedrichsgabe",
+        "population_density": 2200,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 1,
+        "near_port_industrial": 0,
+        "ubahn_stops": 0,
+        "sbahn_stops": 0,
+        "bus_stops": 9
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.972999999999999,
+              53.686
+            ],
+            [
+              9.997,
+              53.686
+            ],
+            [
+              9.997,
+              53.71
+            ],
+            [
+              9.972999999999999,
+              53.71
+            ],
+            [
+              9.972999999999999,
+              53.686
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Norderstedt-Hudtwalcker",
+        "population_density": 3100,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 1,
+        "has_park": 0,
+        "near_port_industrial": 0,
+        "ubahn_stops": 0,
+        "sbahn_stops": 1,
+        "bus_stops": 11
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.982999999999999,
+              53.703
+            ],
+            [
+              10.007,
+              53.703
+            ],
+            [
+              10.007,
+              53.727000000000004
+            ],
+            [
+              9.982999999999999,
+              53.727000000000004
+            ],
+            [
+              9.982999999999999,
+              53.703
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Norderstedt-Am Waldrand",
+        "population_density": 1800,
+        "is_residential": 1,
+        "has_school": 1,
+        "has_supermarket": 0,
+        "has_park": 1,
+        "near_port_industrial": 0,
+        "ubahn_stops": 0,
+        "sbahn_stops": 0,
+        "bus_stops": 7
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.998,
+              53.713
+            ],
+            [
+              10.022,
+              53.713
+            ],
+            [
+              10.022,
+              53.737
+            ],
+            [
+              9.998,
+              53.737
+            ],
+            [
+              9.998,
+              53.713
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Waltershof",
+        "population_density": 450,
+        "is_residential": 0,
+        "has_school": 0,
+        "has_supermarket": 0,
+        "has_park": 0,
+        "near_port_industrial": 1,
+        "ubahn_stops": 0,
+        "sbahn_stops": 0,
+        "bus_stops": 3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.863,
+              53.511
+            ],
+            [
+              9.887,
+              53.511
+            ],
+            [
+              9.887,
+              53.535000000000004
+            ],
+            [
+              9.863,
+              53.535000000000004
+            ],
+            [
+              9.863,
+              53.511
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Finkenwerder",
+        "population_density": 380,
+        "is_residential": 0,
+        "has_school": 0,
+        "has_supermarket": 0,
+        "has_park": 0,
+        "near_port_industrial": 1,
+        "ubahn_stops": 0,
+        "sbahn_stops": 0,
+        "bus_stops": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.833,
+              53.525999999999996
+            ],
+            [
+              9.857000000000001,
+              53.525999999999996
+            ],
+            [
+              9.857000000000001,
+              53.55
+            ],
+            [
+              9.833,
+              53.55
+            ],
+            [
+              9.833,
+              53.525999999999996
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Flughafen",
+        "population_density": 120,
+        "is_residential": 0,
+        "has_school": 0,
+        "has_supermarket": 0,
+        "has_park": 0,
+        "near_port_industrial": 0,
+        "ubahn_stops": 0,
+        "sbahn_stops": 1,
+        "bus_stops": 8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.993,
+              53.618
+            ],
+            [
+              10.017000000000001,
+              53.618
+            ],
+            [
+              10.017000000000001,
+              53.642
+            ],
+            [
+              9.993,
+              53.642
+            ],
+            [
+              9.993,
+              53.618
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stadtteil_name": "Kleiner Grasbrook",
+        "population_density": 600,
+        "is_residential": 0,
+        "has_school": 0,
+        "has_supermarket": 0,
+        "has_park": 0,
+        "near_port_industrial": 1,
+        "ubahn_stops": 0,
+        "sbahn_stops": 1,
+        "bus_stops": 6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.982999999999999,
+              53.516
+            ],
+            [
+              10.007,
+              53.516
+            ],
+            [
+              10.007,
+              53.54
+            ],
+            [
+              9.982999999999999,
+              53.54
+            ],
+            [
+              9.982999999999999,
+              53.516
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

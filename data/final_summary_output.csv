@@ -1,0 +1,15 @@
+section,metric,count,percentage,value,mean_home_lat,mean_home_lon,min_home_lat,max_home_lat,min_home_lon,max_home_lon,median
+commute_time_distribution,≤30 min,27.0,5.4,,,,,,,,
+commute_time_distribution,30–45 min,24.0,4.8,,,,,,,,
+commute_time_distribution,45–60 min,158.0,31.6,,,,,,,,
+commute_time_distribution,>60 min,291.0,58.2,,,,,,,,
+adoption_potential,mean_adoption_score,,,0.5,,,,,,,
+adoption_potential,median_adoption_score,,,0.5147,,,,,,,
+adoption_potential,Recommend Deutschlandticket,385.0,77.0,,,,,,,,
+adoption_potential,Optional,96.0,19.2,,,,,,,,
+adoption_potential,Not recommended,19.0,3.8,,,,,,,,
+strong_connectivity,strong (pt_access_score >= 0.6),412.0,82.4,53.577,53.577,10.0123,53.4349,53.7244,9.799,10.2238,
+weak_connectivity,weak (pt_access_score < 0.3),10.0,2.0,53.5444,53.5444,10.0335,53.4327,53.7207,9.9213,10.2193,
+key_factors,time_score (FAST),,,0.4061,,,,,,,0.4367
+key_factors,convenience_score (CONVENIENT),,,0.2587,,,,,,,0.2466
+key_factors,access_score (EASY TO ACCESS),,,0.7231,,,,,,,0.7462

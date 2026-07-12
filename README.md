@@ -1,0 +1,179 @@
+# Johnson & Johnson — Public Transport Adoption Analysis (Synthetic Data)
+
+## Overview
+
+This project evaluates whether the **Deutschlandticket (D-Ticket)** is a viable mobility benefit for employees of **Johnson & Johnson Medical GmbH** (Norderstedt, Germany). Using a synthetic employee dataset distributed across the Hamburg / Norderstedt region, the pipeline:
+
+- **Assesses public transport accessibility** — walking distance to the nearest PT station via ORS Matrix API
+- **Calculates door-to-door commute times** — driving via ORS (or Google Directions if configured); transit via Google or ORS heuristic fallback
+- **Groups employees by commute duration** — ≤30, 30–45, 45–60, and >60 minutes
+- **Estimates Deutschlandticket adoption potential** — composite score across fast / convenient / easy-to-access dimensions
+- **Produces a final summary report** — consolidated statistics and recommendations
+
+---
+
+## Repository Structure
+
+```
+Deutschlandticket-Analysis/
+├── data/                   # Input datasets and generated outputs (CSV)
+├── src/                    # Python analysis modules
+├── notebooks/              # Jupyter notebooks for exploration and reporting
+└── README.md
+```
+
+### `data/` — Key Files
+
+| File | Description |
+|------|-------------|
+| `employees_synthetic.csv` | Synthetic employee home locations and all enriched fields |
+| `stations.csv` | Public transport stations (OpenStreetMap / Overpass API) |
+| `hamburg_stadtteile.geojson` | Hamburg + Norderstedt Stadtteil polygons |
+| `commute_time_summary.csv` | Commute group statistics |
+| `adoption_summary.csv` | Ticket recommendation statistics |
+| `final_summary_output.csv` | Consolidated final report |
+
+### `src/` — Modules
+
+| Module | Step | Description |
+|--------|------|-------------|
+| `synthetic_data.py` | 1 | Generate synthetic employee dataset |
+| `fetch_stations.py` | — | Fetch PT stations from Overpass API |
+| `pt_connection.py` | 2 | PT connection assessment (ORS Matrix) |
+| `commute.py` | 3 | Door-to-door commute times (Google Directions) |
+| `grouping.py` | 4 | Commute-time grouping |
+| `scoring.py` | 5 | Deutschlandticket adoption scoring |
+| `summary.py` | 6 | Final summary output |
+| `map_visualization.py` | — | Folium map of employee locations |
+
+### `notebooks/`
+
+| Notebook | Description |
+|----------|-------------|
+| `main.ipynb` | Full analysis workflow |
+| `final_summary.ipynb` | Final results presentation |
+
+---
+
+## Methodology (6 Steps)
+
+| Step | Module | Method |
+|------|--------|--------|
+| **1** | `synthetic_data.py` | Sample employee home locations from Hamburg / Norderstedt Stadtteil polygons, weighted by population density and distance to company |
+| **2** | `pt_connection.py` | ORS Matrix API — batch walking-distance matrix to find nearest PT station; compute `pt_access_score` |
+| **3** | `commute.py` | Door-to-door driving (ORS / Google) and transit times (Google or heuristic fallback) |
+| **4** | `grouping.py` | Assign `commute_group` based on transit time buckets (≤30 / 30–45 / 45–60 / >60 min) |
+| **5** | `scoring.py` | Composite `adoption_score` with data-driven weights; Δ-based `ticket_recommendation` thresholds |
+| **6** | `summary.py` | Aggregate all results into `final_summary_output.csv` |
+
+---
+
+## Key Metrics
+
+| Metric | Description |
+|--------|-------------|
+| `commute_group` | Transit commute bucket: ≤30 min / 30–45 min / 45–60 min / >60 min |
+| `pt_access_score` | PT accessibility score: `exp(-walking_distance / 800)`, range 0–1 |
+| `adoption_score` | Composite D-Ticket adoption score (auto-weighted FAST + CONVENIENT + ACCESS) |
+| `ticket_recommendation` | Recommend Deutschlandticket / Optional / Not recommended |
+
+---
+
+## How to Run
+
+### 1. Install Dependencies
+
+```bash
+python -m venv .venv
+.venv\Scripts\activate        # Windows
+pip install -r requirements.txt
+```
+
+### 2. Configure API Keys
+
+Create a `.env` file in the project root (already listed in `.gitignore`):
+
+```
+ORS_API_KEY=your_openrouteservice_key
+GOOGLE_MAPS_API_KEY=your_google_maps_key
+```
+
+| Key | Used by | Register at |
+|-----|---------|-------------|
+| `ORS_API_KEY` | `pt_connection.py` | [openrouteservice.org](https://openrouteservice.org/) |
+| `GOOGLE_MAPS_API_KEY` | `commute.py` (optional — falls back to ORS + heuristic) | [Google Cloud Console](https://console.cloud.google.com/) (enable Directions API) |
+
+### 3. Run the Pipeline
+
+Execute modules in order:
+
+```bash
+python src/synthetic_data.py      # Step 1 — generate employees
+python src/fetch_stations.py      # Fetch PT stations (optional, if not present)
+python src/pt_connection.py       # Step 2 — PT accessibility
+python src/commute.py             # Step 3 — commute times
+python src/grouping.py            # Step 4 — commute grouping
+python src/scoring.py             # Step 5 — adoption scoring
+python src/summary.py             # Step 6 — final summary
+```
+
+Optional visualisations:
+
+```bash
+python src/map_visualization.py   # Interactive map → output/employee_map.html
+```
+
+The map includes:
+- Employee locations coloured by **commute_group**
+- **High-potential D-Ticket users** (Recommend category) highlighted
+- Nearby PT stations (toggle layer)
+- Company HQ marker
+
+### 4. View Results
+
+Open the final presentation notebook:
+
+```bash
+jupyter notebook notebooks/final_summary.ipynb
+```
+
+---
+
+## Final Insights
+
+Based on the synthetic cohort (n = 500) commuting to J&J Medical GmbH, Norderstedt:
+
+1. **Commute time distribution:** Only 5.4% reach the workplace within 30 min by transit; 31.6% need 45–60 min and **58.2% exceed 60 min**. Public transport is accessible but not fast for most employees.
+
+2. **Adoption potential:** **77%** are classified as "Recommend Deutschlandticket", 19% Optional, 4% Not recommended (median adoption_score ≈ 0.51). High recommendation rate reflects strong station access despite long ride times.
+
+3. **Strong vs weak PT connectivity:** **82.4%** live in strong-connectivity areas (pt_access ≥ 0.6, centroid Hamburg inner area). Only **2%** have weak access (pt_access < 0.3) in peripheral Stadtteile — these employees may need shuttle or park-and-ride support.
+
+4. **Dominant scoring dimension:** **EASY TO ACCESS** is strongest (median 0.75); **CONVENIENT** is weakest (median 0.25). Station proximity does not compensate for long transit durations.
+
+5. **Organisational recommendation:** Promote D-Ticket for the Recommend group as a cost/sustainability benefit; offer optional support for borderline cases; consider alternative mobility benefits for the small weak-connectivity cohort. Re-run `commute.py` with Google Directions API for production-grade transit times.
+
+---
+
+## GitHub Submission
+
+```bash
+git init
+git add .
+git commit -m "Deutschlandticket adoption analysis — synthetic employee pipeline"
+git remote add origin https://github.com/Deccie222/Deutschlandticket-Analysis.git
+git push -u origin main
+```
+
+Replace `Deccie222` with your GitHub account if using a fork. Do **not** commit `.env` (already in `.gitignore`).
+
+---
+
+## Company Reference
+
+| | |
+|---|---|
+| **Company** | Johnson & Johnson Medical GmbH |
+| **Location** | Norderstedt, Germany |
+| **Coordinates** | 53.6995° N, 9.9856° E |
+| **Study area** | Hamburg + Norderstedt (synthetic, n = 500) |
