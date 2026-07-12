@@ -1,1 +1,0 @@
-Trim data folder to essential CSVs and update README
